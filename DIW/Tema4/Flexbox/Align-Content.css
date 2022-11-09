@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 10px solid goldenrod;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 97.9vh;
+}
+
+.flex-container div{
+    font-size: 100px;
+    width: 33.333%;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.105);
+}

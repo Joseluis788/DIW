@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 10px solid mistyrose;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 97.9vh;
+}
+
+.flex-container div{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.105);
+}
