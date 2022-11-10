@@ -5,28 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aligment-Centering</title>
+    <title>Flex-Property</title>
     <style>
         * {
             box-sizing: border-box;
         }
-
-        body {
+        body{
             border: 10px solid goldenrod;
             margin: 0;
         }
-
         .flex-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
+            flex-direction: column;
             height: 97.9vh;
         }
 
         .flex-container div {
-            font-size: 100px;
-            width: 33.333%;
+            font-size: 50px;
+            flex-basis: 250px;
+            flex-grow: 1;
             color: white;
             text-align: center;
             font-family: sans-serif;
@@ -38,16 +36,12 @@
 
 <body>
     <div class="flex-container">
-        <div style="background-color: #1abc9c;">1</div>
-        <div style="background-color: #3498db;">2</div>
-        <div style="background-color: #9b59b6;">3</div>
-        <div style="background-color: #34495e;">4</div>
-        <div style="background-color: #f1c40f;">5</div>
-        <div style="background-color: #e67e22;">6</div>
-        <div style="background-color: #e74c3c;">7</div>
-        <div style="background-color: #bdc3c7;">8</div>
-        <div style="background-color: #2ecc71;">9</div>
-        <div style="background-color: #16a085;">10</div>
+        <div style="background-color: #1abc9c;">one 😎</div>
+        <div style="background-color: #3498db;">two 🍕  </div>
+        <div style="background-color: #9b59b6; flex-grow: 4;">three 🍟</div>
+        <div style="background-color: #34495e; flex-basis: 100px;">four 👍</div>
+        <div style="background-color: #f1c40f;">five 👀</div>
+        <div style="background-color: #e67e22;">six 💩</div>
     </div>
 </body>
 

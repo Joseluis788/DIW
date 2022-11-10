@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Align-Items</title>
-    <link rel="stylesheet" href="Align-Items.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            border: 10px solid goldenrod;
+            margin: 0;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            height: 97.9vh;
+        }
+
+        .flex-container div {
+            font-size: 10px;
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            padding: 10px;
+            text-shadow: 4px 4px rgba(0, 0, 0, 0.105);
+        }
+    </style>
 </head>
+
 <body>
     <div class="flex-container">
         <div style="background-color: #1abc9c; font-size: 25px;">1</div>
@@ -21,4 +48,5 @@
         <div style="background-color: #16a085; font-size: 95px">10</div>
     </div>
 </body>
+
 </html>
