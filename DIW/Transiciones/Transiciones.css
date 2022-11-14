@@ -1,0 +1,16 @@
+.divboton{
+    padding: 30px;
+}
+.div1{
+    text-align: center;
+}
+
+.boton{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    width: 300px; 
+    height: 100px;
+    background-color: rgb(9, 115, 236);
+    color: white    ;
+}
