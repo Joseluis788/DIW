@@ -101,3 +101,58 @@ th{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
 }
+
+.DivTransition-timing-functionEASE{
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+
+.DivTransition-timing-functionEASE:hover{
+    background-color: green;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.DivTransition-timing-functionLINEAR{
+    transition-timing-function: linear;
+    transition-duration: 2s;
+}
+
+.DivTransition-timing-functionLINEAR:hover{
+    background-color: green;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.DivTransition-timing-functionEASE-IN{
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+
+.DivTransition-timing-functionEASE-IN:hover{
+    background-color: green;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.DivTransition-timing-functionEASE-OUT{
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+}
+
+.DivTransition-timing-functionEASE-OUT:hover{
+    background-color: green;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.DivTransition-timing-functionEASE-IN-OUT{
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.DivTransition-timing-functionEASE-IN-OUT:hover{
+    background-color: green;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
