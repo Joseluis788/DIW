@@ -156,3 +156,6 @@ th{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
 }
+.rrc-enseño>div{
+    width: 300px;
+}

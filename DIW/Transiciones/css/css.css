@@ -58,7 +58,7 @@ body{
 .rrc-enseño>div {
     /*divs de muestreo (1-2-3)*/
     background-color: #f1f1f1;
-    width: 300px;
+    width: 100px;
     /*tamaño de la caja*/
     margin: 10px;
     text-align: center;

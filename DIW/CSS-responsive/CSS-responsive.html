@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Responsive</title>
+    <style>
+        .ultraDiv{
+            max-width: 70%;
+            margin: 0 auto;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul{
+            list-style: none;
+        }
+
+        nav ul li{
+            float: left;
+            padding: 10px;
+        }
+
+        nav ul li a{
+            display: block;
+            text-decoration: none;
+        }
+
+        .inicio{
+            background-color: rgb(0, 132, 255);
+            text-align: center;
+            padding: 20%;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="ultraDiv">
+        <header>
+            <div class="flex-container">
+                <div class="proyecto"><h2>PROYECTO</h2></div>
+                <nav>
+                     <ul>
+                        <li><a href=""><div class="inicio">Inicio</div></a></li>
+                        <li><a href="">Sobre nosotros</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>
+</html>
