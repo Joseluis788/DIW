@@ -14,7 +14,7 @@
         .flex-container{
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: baseline;
             flex-wrap: wrap;
         }
 
@@ -30,13 +30,52 @@
         nav ul li a{
             display: block;
             text-decoration: none;
+            align-items: baseline;
         }
 
         .inicio{
             background-color: rgb(0, 132, 255);
             text-align: center;
-            padding: 20%;
+            padding: 10px;
             border-radius: 5%;
+        }
+        .encabezado{
+            background-color: lightgray;
+            text-align: center;
+            font-size: 35px;
+            padding: 7%;
+            border-radius: 5%;
+        }
+        .boton{
+            background-color: green;
+            color: white;
+            padding: 2%;
+            border-radius: 7%;
+            font-size: 35px;
+        }
+        .informacion{
+            width: 50%;
+        }
+        .apartados{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        footer{
+            color: lightgray;
+        }
+        @media (max-width: 600px) 
+        {
+            .informacion
+            {
+            width: 100%;
+            }
+
+            .lista
+            {
+                display: none;
+            }            
         }
     </style>
 </head>
@@ -44,17 +83,54 @@
     <div class="ultraDiv">
         <header>
             <div class="flex-container">
-                <div class="proyecto"><h2>PROYECTO</h2></div>
+                <h2>PROYECTO</h2>
                 <nav>
-                     <ul>
+                     <ul class="lista">
                         <li><a href=""><div class="inicio">Inicio</div></a></li>
                         <li><a href="">Sobre nosotros</a></li>
                         <li><a href="">Contacto</a></li>
                     </ul>
                 </nav>
-                </div>
             </div>
         </header>
+        <hr>
+        <br>
+        <div class="encabezado">
+            <h1>Encabezado</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mus rhoncus sed, 
+                nisl odio iaculis primis cum et accumsan turpis class hac, sagittis neque cras vestibulum nascetur ac hendrerit dictumst quam.
+            </p>
+            <button class="boton">Inicio de sesion</button>
+        </div>
+        <div class="apartados">
+            <div class="informacion">
+                <h2>Apartado 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mus rhoncus sed</p>
+            </div>
+            <div class="informacion">
+                <h2>Apartado 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mus rhoncus sed</p>
+            </div>
+            <div class="informacion">
+                <h2>Apartado 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mus rhoncus sed</p>
+            </div>
+            <div class="informacion">
+                <h2>Apartado 4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mus rhoncus sed</p>
+            </div>
+            <div class="informacion">
+                <h2>Apartado 5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mus rhoncus sed</p>
+            </div>
+            <div class="informacion">
+                <h2>Apartado 6</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mus rhoncus sed</p>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <footer>2022 FDGA, Dpto Informática - IES Murgi</footer>
     </div>
 </body>
 </html>
