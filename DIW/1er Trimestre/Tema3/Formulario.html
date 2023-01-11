@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 7</title>
+    <style>
+        .div1 
+        {
+            border: 5px solid;
+        }
+
+        .img1
+        {
+            padding-left: 200px;
+        }
+        .td1
+        {
+            padding-left: 500px;
+        }
+
+        .tabla1
+        {
+            padding-left: 300px;
+        }
+
+        .tabla2
+        {
+            padding-left: 300px;
+        }
+
+        .td2
+        {
+            padding-left: 85px;
+        }
+
+        .img2
+        {
+            width: 200px;
+            height: 200px;
+            padding-left: 200px;
+        }
+
+        .td3
+        {
+            padding-left: 85px;
+        }
+
+        .img3
+        {
+            width: 200px;
+            height: 200px;
+            padding-left: 20px;
+        }
+
+        .td4
+        {
+            padding-left: 400px;
+        }
+
+        .td5
+        {
+            padding-left: 120px;
+        }
+
+        select
+        {
+            width: 250px;
+            height: 60px;
+        }
+
+        .td6
+        {
+            padding-left: 200px;
+        }
+
+        .td7
+        {
+            padding-left: 160px;
+        }
+
+        .fieldset
+        {
+            width: 300px;
+        }
+
+        .td8
+        {
+            padding-left: 525px;
+        }
+
+        .td9
+        {
+
+            padding-left: 200px;
+        }
+
+        .tabla4
+        {
+            padding-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <table>
+            <td>
+                <img src="https://img.freepik.com/premium-vector/car-rental-logo-template-design_316488-1614.jpg" width="200px" height="200px" class="img1">
+            
+            </td>
+            <td class="td1">
+                <h1>Reserva de coche</h1>
+            </td>
+        </table>
+        <br>
+        <br>
+        <table class="tabla1">
+            <tr>
+                <td>
+                    Nombre: 
+                </td>
+                <td>
+                    <input type="text" placeholder="nombre">
+                </td>
+                <td>
+                    <input type="text" placeholder="correo electrónico">
+                </td>
+                <td>
+                    :Correo
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1º Apellido:
+                </td>
+                <td>
+                    <input type="text" placeholder="primer apellido">
+                </td>
+                <td>
+                    <input type="text" placeholder="contraseña">
+                </td>
+                <td>
+                    :Contraseña
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2º Apellido:
+                </td>
+                <td>
+                    <input type="text" placeholder="segundo apellido">
+                </td>
+                <td>
+                    <input type="text" placeholder="repite contraseña">
+                </td>
+                <td>
+                    :Repetir contraseña
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    D.N.I.:
+                </td>
+                <td>
+                    <input type="text" placeholder="nº DNI">
+                </td>
+                <td style="text-align: right;">
+                    <input type="date">
+                </td>
+                <td>
+                    :Fecha de nacimiento
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table class="tabla2">
+            <tr>
+                <td>
+                    Caducidad carnet:
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+                <td class="td2">
+                    <input type="date">
+                </td>
+                <td>
+                    :Antigüedad carnet
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <br>
+
+        <table class="tabla3">
+            <tr>
+                <td>
+                    <img src="https://img.myloview.pl/fototapety/plaski-kwadratowy-znacznik-wyboru-zielony-przycisk-przycisk-symbol-tick-samodzielnie-na-bialym-tle-ilustracji-wektorowych-eps10-400-90497705.jpg" class="img2">
+                </td>
+                <td>
+                    Fecha recogida:<br><input type="date">
+                </td>
+                <td class="td3">
+                    Fecha devolucion:<br><input type="date">
+                </td>
+                <td>
+                    <img src="https://c8.alamy.com/zoomses/9/aab8b2ea006f4a79950e634d30080b22/t19rx7.jpg" class="img3">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="td4">
+                    Hora devolucion:<br> <input type="time">
+                </td>
+                <td class="td5">
+                    Hora recogida<br><input type="time">
+                </td>
+            </tr>
+        </table>
+       
+        <br>
+        <br>
+        <p style="padding-left: 205px;">Selecciona vehículo:</p>
+        <table>
+            <tr>
+                <td class="td6">
+                    <select name="coche" multiple="multiple" size="2" class="select">
+                        <optgroup label="Selección Marca Kia">
+                            <option value="Picanto">Picanto</option>
+                            <option value="Cerato">Cerato</option>
+                        </optgroup>
+                    </select>
+                </td>
+                <td class="td7">
+                    <fieldset class="fieldset">
+                        <legend>Combustible</legend>
+                        <input type="radio" name="Gasoil"> Gasoil<br>
+                        <input type="radio" name="Gasolina"> Gasolina
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td class="td8">
+                    Observaciones
+                </td>
+            </tr>
+            <tr>
+                <td class="td9">
+                    <textarea name="Observaciones" id="" cols="98" rows="10" class="textarea"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <table class="tabla4">
+            <tr>
+                <td>
+                    <input type="checkbox"> Acepto las condiciones generales de alquiler
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox"> Acepto recibir promociones y ofertas
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <footer>
+        Realizado por: José Luis Torres Orcera
+    </footer>
+    
+
+
+
+</body>
+</html>
