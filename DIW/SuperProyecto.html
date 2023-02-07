@@ -1,33 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página web</title>
-    <script src="https://kit.fontawesome.com/78556e7c4a.js" crossorigin="anonymous"></script>    
-    <link rel="stylesheet" href="Bootstrap/styles.css">
-    <script src="Bootstrap/node_modules/bootstrap/dist/js/bootstrap.esm.js"></script>
-    <link rel="stylesheet" href="Bootstrap/node_modules/bootstrap-icons/bootstrap-icons.svg">
-    <link rel="stylesheet" href="Bootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página web</title>
+  <script src="https://kit.fontawesome.com/78556e7c4a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Bootstrap/styles.css">
+  <script src="Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="Bootstrap/node_modules/bootstrap-icons/bootstrap-icons.svg">
+  <link rel="stylesheet" href="Bootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="carrusel.css">
+  <style>
+    header {
+      background-color: rgb(150, 84, 224);
+    }
+
+    .hh {
+      border: 1px solid red;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container-fluid">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <i class="fa-solid fa-music px-5"></i>
-            <span class="fs-4">Simple header</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          </ul>
-        </header>
+  <div class="container-fluid">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom align-items-center">
+      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img src="Bootstrap/imagenes/GuessMasterIcon-removebg-preview.png" width="70px" height="70px">
+        <span class="fs-4 fw-bold blanco">GuessMaster</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active blanco" aria-current="page">Crear Cuenta</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" style="color:aliceblue;">¿Cómo se juega?</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" style="color:aliceblue;">Contacto</a></li>
+      </ul>
+
+      <div class="h1 container py-5 mt-5 d-flex align-items-center flex-column">
+        <p class="accion blanco">¿Listo para poner a prueba</p>
+        <p class="accion blanco">tus capacidades musicales?</p>
       </div>
+      <div class="container d-flex justify-content-center">
+        <button class="btn btn-primary w-25 mb-5">
+          <p class="mb-0" style="font-size: 170%;">Empezar a jugar</p>
+        </button>
+      </div>
+    </header>
+  </div>
+  <div class="container d-flex justify-content-center hh">
+    <div class="row hh">
+      <p class="playlist fw-bold">PLAYLISTS PREDETERMINADAS</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row hh">
+      <div class="col">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="Bootstrap/imagenes/All Out.jpg"  alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="Bootstrap/imagenes/1.-Todays-Top-Hits.jpg"  alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="Bootstrap/imagenes/Top-100-Global.jpg"  alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="Bootstrap/imagenes/Top Hits.png"  alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="Bootstrap/imagenes/Top 50.png"  alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="Bootstrap/imagenes/Viva latino.png"  alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
+
 </html>
