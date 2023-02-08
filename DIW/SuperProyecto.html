@@ -11,7 +11,7 @@
   <script src="Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <link rel="stylesheet" href="Bootstrap/node_modules/bootstrap-icons/bootstrap-icons.svg">
   <link rel="stylesheet" href="Bootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="carrusel.css">
+  
   <style>
     header {
       background-color: rgb(150, 84, 224);
@@ -23,131 +23,103 @@
   </style>
 </head>
 
-<body>
-  <div class="container-fluid">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom align-items-center">
-      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+<body class="imagenFondo">
+  <div class="container-fluid p-0">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 flex-column flex-md-row align-items-center">
+      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" href="#">
         <img src="Bootstrap/imagenes/GuessMasterIcon-removebg-preview.png" width="70px" height="70px">
         <span class="fs-4 fw-bold blanco">GuessMaster</span>
       </a>
 
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="#" class="nav-link active blanco" aria-current="page">Crear Cuenta</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color:aliceblue;">¿Cómo se juega?</a></li>
+        <li class="nav-item"><a href="ComoSeJuega.html" class="nav-link" style="color:aliceblue;">¿Cómo se juega?</a></li>
         <li class="nav-item"><a href="#" class="nav-link" style="color:aliceblue;">Contacto</a></li>
       </ul>
 
-      <div class="h1 container py-5 mt-5 d-flex align-items-center flex-column">
+      <div class="h1 container py-5 mt-5 d-flex align-items-center flex-column text-center">
         <p class="accion blanco">¿Listo para poner a prueba</p>
         <p class="accion blanco">tus capacidades musicales?</p>
       </div>
       <div class="container d-flex justify-content-center">
-        <button class="btn btn-primary w-25 mb-5">
+        <button class="btn btn-primary px-5 mb-5">
           <p class="mb-0" style="font-size: 170%;">Empezar a jugar</p>
         </button>
       </div>
     </header>
   </div>
-  <div class="container d-flex justify-content-center hh">
-    <div class="row hh">
-      <p class="playlist fw-bold">PLAYLISTS PREDETERMINADAS</p>
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+      <p class="playlist fw-bold bg-light text-center">PLAYLISTS PREDETERMINADAS</p>
     </div>
   </div>
   <div class="container">
-    <div class="row hh">
-      <div class="col">
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card">
-                <div class="img-wrapper">
-                  <img src="Bootstrap/imagenes/All Out.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper">
-                  <img src="Bootstrap/imagenes/1.-Todays-Top-Hits.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper">
-                  <img src="Bootstrap/imagenes/Top-100-Global.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper">
-                  <img src="Bootstrap/imagenes/Top Hits.png"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper">
-                  <img src="Bootstrap/imagenes/Top 50.png"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper">
-                  <img src="Bootstrap/imagenes/Viva latino.png"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card blanco" style="background-color: rgb(150,84,224);">
+          <div class="">
+            <img src="Bootstrap/imagenes/TTH_FTR-Header.png" alt="...">
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="card-body">
+            <h5 class="card-title">Today's Top Hits 100</h5>
+            <p class="card-text">¡Adivina las canciones y los artistas de la lista diaria más grande del mundo con hasta 100 canciones diferentes!</p>
+            <a href="#" class="btn btn-primary">Jugar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card blanco" style="background-color: rgb(150,84,224);">
+          <div class="img-wrapper">
+            <img src="Bootstrap/imagenes/All Out.jpg" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">All Out</h5>
+            <p class="card-text">¿Eres de los que le gustan los vibes del 2010? Entonces, ¡ésta es tu playlist!</p>
+            <a href="#" class="btn btn-primary">Jugar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card blanco" style="background-color: rgb(150,84,224);">
+          <div class="img-wrapper">
+            <img src="Bootstrap/imagenes/1.-Todays-Top-Hits.jpg" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Today's Top Hits</h5>
+            <p class="card-text">La mejor playlist diaria del planeta. ¿Te atreves con ella?</p>
+            <a href="#" class="btn btn-primary jugar">Jugar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card blanco" style="background-color: rgb(150,84,224);">
+          <div class="img-wrapper">
+            <img src="Bootstrap/imagenes/Top-100-Global.jpg" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Top 100 Global</h5>
+            <p class="card-text">Aquí encontrarás las canciones más escuchadas en todo el mundo. ¿Estás listo para el reto?</p>
+            <a href="#" class="btn btn-primary jugar">Jugar</a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+  <div class="container-fluid carta">
+    <footer class="d-flex row flex-wrap justify-content-between align-items-center py-3 my-4 mb-0">
+      <div class="col-md-4 d-flex copy">
+        <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <img src="Bootstrap/imagenes/GuessMasterIcon-removebg-preview.png" width="40px" height="40px">
+          <span class="blanco">GuessMaster &copy; 2022 Company, Inc</span>
+        </a>
+      </div>
+  
+      <ul class="nav col-md-4 redes list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands blanco iconos fa-twitter"><use xlink:href="#twitter"/></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands iconos blanco fa-instagram"><use xlink:href="#instagram"/></i><a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands blanco iconos fa-facebook"><use xlink:href="#facebook"/></i></a></li>
+      </ul>
+    </footer>
   </div>
 
 </body>
