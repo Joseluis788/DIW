@@ -95,6 +95,18 @@ img{
   background-image: url(imagenes/rrrainbow.svg);
 }
 
+.imagenFondoExamen{
+  background-image: url(ImagenesExamen/slider-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagenFondoExamen2{
+  background-image: url(ImagenesExamen/tour-bg.png);
+  background-repeat: repeat-x;
+}
+
 /* $theme-colors: (
   "primary": #108EE2
 ); */
@@ -102,4 +114,4 @@ img{
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
-@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
